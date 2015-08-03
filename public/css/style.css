@@ -31,34 +31,55 @@ header{
     top: 10%;
     border: 15px solid white;
 }
-.nav{
-    background-color: #424343;
-}
 .mobile_logo{
-    width: 40px;
+    width: 50px;
     height: 40px;
 }
-.navbar-header {
-  float: none;
+.logo_image{
+    width: 50px;
 }
-.navbar-toggle {
-  display: block;
+h2{
+    margin: 0;
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;
 }
-.navbar-collapse {
-  border-top: 1px solid transparent;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+.item{
+    background: white;
+    text-align: center;
+    height: 300px !important;
 }
-.navbar-collapse.collapse {
-  display: none!important;
+.carousel{
+    margin-top: 10px;
 }
-.navbar-nav {
-  float: none!important;
-  margin: 7.5px -15px;
+.bs-example{
+	margin: 20px;
 }
-.navbar-nav>li {
-  float: none;
+/* bootstrap 3 helpers */
+
+.navbar-form input, .form-inline input {
+	width:auto;
 }
-.navbar-nav>li>a {
-  padding-top: 10px;
-  padding-bottom: 10px;
+
+
+
+header {
+	height:280px;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+#sidebar.affix-top {
+    position: static;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top: 80px;
 }
