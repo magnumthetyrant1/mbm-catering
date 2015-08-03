@@ -1,0 +1,64 @@
+body{
+    margin: auto;
+}
+header{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#424343+0,424343+48,424343+50,74c066+52,74c066+100 */
+    background: #424343; /* Old browsers */
+    background: -moz-linear-gradient(top, #424343 48%, #424343 50%, #74c066 52%, #74c066 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#424343), color-stop(48%,#424343), color-stop(50%,#424343), color-stop(52%,#74c066), color-stop(100%,#74c066)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #424343 0%,#424343 48%,#424343 50%,#74c066 52%,#74c066 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #424343 0%,#424343 48%,#424343 50%,#74c066 52%,#74c066 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #424343 0%,#424343 48%,#424343 50%,#74c066 52%,#74c066 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #424343 0%,#424343 48%,#424343 50%,#74c066 52%,#74c066 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424343', endColorstr='#74c066',GradientType=0 ); /* IE6-9 */
+}
+.contentwrapper img {
+    max-width:250px;
+    padding-left: 25px;
+    height:auto;
+}
+.design1{
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    align-self: center;
+}
+.design1 img{
+    position: absolute;
+    right: 20px;
+    top: 10%;
+    border: 15px solid white;
+}
+.nav{
+    background-color: #424343;
+}
+.mobile_logo{
+    width: 40px;
+    height: 40px;
+}
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+}
+.navbar-collapse {
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+  margin: 7.5px -15px;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

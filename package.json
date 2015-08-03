@@ -1,0 +1,25 @@
+{
+  "name": "mbm-catering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.1",
+    "express-favicon": "^1.0.1",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "lodash": "^3.10.0",
+    "protractor": "^2.1.0"
+  }
+}
