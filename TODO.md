@@ -1,5 +1,5 @@
 # Todo:
-1. add a fixed menu on scroll
+1. add a fixed menu on scroll :: DONE
 2. add background image to the carousel_image
 3. add motto text to the header
 4. add success and portfolio section
@@ -10,3 +10,5 @@
 9. possible extras
    -- loading icons
    -- animated menu items
+10. document the css
+ 

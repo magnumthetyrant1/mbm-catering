@@ -16,23 +16,54 @@ header{
     max-width:250px;
     padding-left: 25px;
     height:auto;
+
+}
+.carousel-control{
+  color:black;
+
 }
 
-
-
-
+#owl-demo .item{
+  background: #a1def8;
+  padding: 30px 0px;
+  display: block;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
 h1, h2{
     margin: 0;
-    color: #434242;
-    padding-top: 90px;
     font-family: "trebuchet ms", sans-serif;
 }
+.carousel-caption{
+  color: black;
+  vertical-align: top;
+  text-align: justify;
+
+}
 .item{
-    background: #434242;
-    text-align: center;
+
+    vertical-align: top;
+    color: black;
     position: relative;
-    min-height: 500px !important;
-    max-height: 800px !important;
+  top: 50%;
+  transform: translateY(-50%);
+    height: 350px !important;
+    vertical-align: text-top;
+}
+.headline{
+  padding: 10px;
+  text-align: justify;
+}
+.headline::first-letter {
+   float: left;
+   font-size: 1.5em;
+   font-weight: bold;
+   font-family: cursive;
+   padding-right: 2px;
 }
 .carousel{
     margin-top: 0px;
@@ -45,10 +76,6 @@ h1, h2{
 .navbar-form input, .form-inline input {
 	width:auto;
 }
-
-
-
-
 
 #nav.affix {
     position: fixed;
@@ -65,7 +92,30 @@ h1, h2{
     position: fixed;
     top: 80px;
 }
-
+.fa-recycle{
+  color: #74c066;
+}
 .carousel_img{
   width:50px;
+}
+input:focus{
+  border: solid 3px  #74c066;
+
+}
+#success, #portfolio,#contact{
+  padding-top: 60px;
+}
+#myCarousel{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+17,ffffff+35,ffffff+87,ffffff+87,000000+92,ffffff+92,000000+92,000000+93,000000+93,000000+93,000000+93,000000+100 */
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 17%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 87%, rgba(255,255,255,1) 87%, rgba(0,0,0,1) 92%, rgba(255,255,255,1) 92%, rgba(0,0,0,1) 92%, rgba(0,0,0,1) 93%, rgba(0,0,0,1) 93%, rgba(0,0,0,1) 93%, rgba(0,0,0,1) 93%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(17%,rgba(255,255,255,1)), color-stop(35%,rgba(255,255,255,1)), color-stop(87%,rgba(255,255,255,1)), color-stop(87%,rgba(255,255,255,1)), color-stop(92%,rgba(0,0,0,1)), color-stop(92%,rgba(255,255,255,1)), color-stop(92%,rgba(0,0,0,1)), color-stop(93%,rgba(0,0,0,1)), color-stop(93%,rgba(0,0,0,1)), color-stop(93%,rgba(0,0,0,1)), color-stop(93%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 17%,rgba(255,255,255,1) 35%,rgba(255,255,255,1) 87%,rgba(255,255,255,1) 87%,rgba(0,0,0,1) 92%,rgba(255,255,255,1) 92%,rgba(0,0,0,1) 92%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 17%,rgba(255,255,255,1) 35%,rgba(255,255,255,1) 87%,rgba(255,255,255,1) 87%,rgba(0,0,0,1) 92%,rgba(255,255,255,1) 92%,rgba(0,0,0,1) 92%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 17%,rgba(255,255,255,1) 35%,rgba(255,255,255,1) 87%,rgba(255,255,255,1) 87%,rgba(0,0,0,1) 92%,rgba(255,255,255,1) 92%,rgba(0,0,0,1) 92%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 17%,rgba(255,255,255,1) 35%,rgba(255,255,255,1) 87%,rgba(255,255,255,1) 87%,rgba(0,0,0,1) 92%,rgba(255,255,255,1) 92%,rgba(0,0,0,1) 92%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+
+
 }
