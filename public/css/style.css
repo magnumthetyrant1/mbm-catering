@@ -17,44 +17,28 @@ header{
     padding-left: 25px;
     height:auto;
 }
-.design1{
-    font-family: sans-serif;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-    align-self: center;
-}
-.design1 img{
-    position: absolute;
-    right: 20px;
-    top: 10%;
-    border: 15px solid white;
-}
-.mobile_logo{
-    width: 50px;
-    height: 40px;
-}
-.logo_image{
-    width: 50px;
-}
-h2{
+
+
+
+
+h1, h2{
     margin: 0;
-    color: #666;
+    color: #434242;
     padding-top: 90px;
-    font-size: 52px;
     font-family: "trebuchet ms", sans-serif;
 }
 .item{
-    background: white;
+    background: #434242;
     text-align: center;
-    height: 300px !important;
+    position: relative;
+    min-height: 500px !important;
+    max-height: 800px !important;
 }
 .carousel{
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .bs-example{
-	margin: 20px;
+	margin: 5px;
 }
 /* bootstrap 3 helpers */
 
@@ -64,9 +48,7 @@ h2{
 
 
 
-header {
-	height:280px;
-}
+
 
 #nav.affix {
     position: fixed;
@@ -82,4 +64,8 @@ header {
 #sidebar.affix {
     position: fixed;
     top: 80px;
+}
+
+.carousel_img{
+  width:50px;
 }
