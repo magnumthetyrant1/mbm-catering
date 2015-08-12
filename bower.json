@@ -18,7 +18,8 @@
     "jquery": "~2.1.4",
     "font-awesome": "~4.4.0",
     "angular": "~1.4.3",
-    "bootstrap-sass": "~3.3.5"
+    "bootstrap-sass": "~3.3.5",
+    "readmore": "~2.0.5"
   },
   "devDependencies": {
     "bootstrap-sass": "~3.3.5"

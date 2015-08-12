@@ -2,10 +2,10 @@
 1. add a fixed menu on scroll :: DONE
 2. add background image to the carousel_image
 3. add motto text to the header
-4. add success and portfolio section
+4. add success and portfolio section :: STARTED
 5. add custom fonts
 6. portfolio section: image gallery with zoom and descriptions
-7. success section: better structure to the text
+7. success section: better structure to the text :: IMPLEMENT READ MORE/READ LESS
 8. footer: needs social icons year and contact
 9. possible extras
    -- loading icons

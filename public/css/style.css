@@ -1,3 +1,8 @@
+/*
+    style.scss
+        - imports the other scss files and gets compiled into style.css
+
+*/
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -6058,3 +6063,34 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+/*
+    _variables.scss
+    holds the colours and the fonts for the project
+    @author : Max-Andre Zils
+    @date   : 12 08 2015
+*/
+/*
+    mixins.scss
+        - contains the mixins for the project
+*/
+/*
+    portfolio.scss
+        - styles for the portfolio section of the page
+*/
+.accordion a {
+  color: #444444;
+  font-size: 30px;
+  font-size: 1.875rem; }
+
+.accordion a:hover {
+  background: #ffa500; }
+
+/*
+    main.scss
+        - contains the styles for the classes and  id's of the project
+*/
+.contentwrapper {
+  background-image: linear-gradient(#ffa500, #726c61); }
+  .contentwrapper img {
+    width: 20%; }
