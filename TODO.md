@@ -2,7 +2,7 @@
 1. add a fixed menu on scroll :: DONE
 2. add background image to the carousel_image
 3. add motto text to the header
-4. add success and portfolio section
+4. add success and portfolio section :: Started
 5. add custom fonts
 6. portfolio section: image gallery with zoom and descriptions
 7. success section: better structure to the text
@@ -19,10 +19,13 @@
     - send an email to mel
     - send a confirmation message to the users email/ show a thank you padding-left
 17. deploy to heroku
-
 18. test for other browsers and mobi  
 19. add back to top icon
 20. compress js and css
 21. add arrow icons to the end of the accordions
 22. colour suggestions from Felisha
 23. add a subheading for all the sections  
+24. add icons under nav
+25. add normalize
+26. add sass support
+27. compress images  
