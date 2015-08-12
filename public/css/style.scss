@@ -1,2 +1,12 @@
+
+/*
+    style.scss
+        - imports the other scss files and gets compiled into style.css
+
+*/
+@import '../vendors/bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'variables';
+@import 'mixins';
 @import 'layout';
+@import 'portfolio';
+@import 'main';
