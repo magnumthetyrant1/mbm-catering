@@ -1,7 +1,7 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
   $("#owl-demo").owlCarousel({
-    jsonPath : "json/data.json"
+    jsonPath : "./json/data.json"
   });
 
 });
