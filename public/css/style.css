@@ -6133,7 +6133,7 @@ body {
 }
 */
 #portfolio h1, h2 {
-  color: #ff6873; }
+  color: rgba(102, 214, 138, 0.5); }
 
 #portfolio h1 {
   text-transform: uppercase;
@@ -6176,7 +6176,7 @@ body {
     margin: 0;
     padding-bottom: 4px;
     padding-top: 18px;
-    border-top: 1px dotted #dce7eb; }
+    border-top: 1px dotted #726c61; }
     #portfolio ul li:nth-of-type(1) {
       animation-delay: 0.5s; }
     #portfolio ul li:nth-of-type(2) {
@@ -6193,7 +6193,7 @@ body {
       #portfolio ul li i:before, #portfolio ul li i:after {
         content: "";
         position: absolute;
-        background-color: #ff6873;
+        background-color: rgba(102, 214, 138, 0.5);
         width: 3px;
         height: 9px; }
       #portfolio ul li i:before {
@@ -6235,10 +6235,19 @@ body {
     transform: rotateX(0deg); } }
 
 /*
+
+*/
+input {
+  border: solid 2px black;
+  font-family: "Titillium Web", sans-serif; }
+  input:focus {
+    border: solid 3px rgba(102, 214, 138, 0.5); }
+
+/*
     main.scss
         - contains the styles for the classes and  id's of the project
 */
 .contentwrapper {
-  background-image: linear-gradient(#ffa500, #dce7eb); }
+  background-image: linear-gradient(#ffa500, #726c61); }
   .contentwrapper img {
     width: 20%; }
