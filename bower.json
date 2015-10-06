@@ -14,15 +14,19 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.5",
-    "jquery": "~2.1.4",
-    "font-awesome": "~4.4.0",
     "angular": "~1.4.3",
-    "normalize.css": "~3.0.3",
-    "bootstrap-sass": "~3.3.5",
-    "readmore": "~2.0.5",
     "angular-carousel": "~0.3.12",
-    "normalize": "~1.0.4"
+    "angular-formly": "~6.24.23",
+    "angular-formly-templates-bootstrap": "~6.0.0",
+    "api-check": "~7.5.0",
+    "bootstrap": "~3.3.5",
+    "bootstrap-sass": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.4",
+    "normalize": "~1.0.4",
+    "normalize.css": "~3.0.3",
+    "readmore": "~2.0.5",
+    "slick-carousel": "~1.5.8"
   },
   "devDependencies": {
     "bootstrap-sass": "~3.3.5"

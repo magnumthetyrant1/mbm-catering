@@ -5,8 +5,7 @@ var
     favicon = require('express-favicon'),
     port    = process.env.PORT || 3000,
     app     = express();
-
-// serve static files
+  // serve static files
 //===================================================
 app.use(express.static(__dirname + '/public'));
 
@@ -24,16 +23,8 @@ app.set('views', __dirname + '/public/views');
 app.set('view cache', false);
 swig.setDefaults({ cache: false });
 
-
-
-
-// Route for index.html
-//===================================================
-app.get('/', function(req, res){
-    res.render('index', {
-        title: 'MBM Catering'
-    });
-});
+//Importing the routes from /config/routes
+require('./config/routes.js');
 
 
 app.listen(port);

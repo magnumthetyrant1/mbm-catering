@@ -1,7 +1,14 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
   $("#owl-demo").owlCarousel({
-    jsonPath : "./json/data.json"
-  });
 
+    autoPlay : 3000,
+   stopOnHover : true,
+   navigation:true,
+   paginationSpeed : 1000,
+   goToFirstSpeed : 2000,
+   singleItem : true,
+   autoHeight : true,
+   transitionStyle:"fade"
+  });
 });

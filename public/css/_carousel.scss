@@ -1,11 +1,20 @@
-#owl-demo .item{
-  background: #a1def8;
-  padding: 30px 0px;
-  display: block;
-  margin: 5px;
-  color: #FFF;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  text-align: center;
+
+.your-class {
+  width:96%;
+  align-self: center;
+  margin: auto;
+  background-color: $green;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2em;
+
+}
+ .slick-arrow{
+  color: $green;
+  border: 1px solid $green;
+  background: $green;
+  border-radius: 4em;
+  &:focus, &:hover{
+    background-color: $green;
+  }
 }
