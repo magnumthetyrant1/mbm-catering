@@ -1,7 +1,6 @@
 var
     express = require('express'),
     swig    = require('swig'),
-    path    = require('path'),
     favicon = require('express-favicon'),
     port    = process.env.PORT || 3000,
     app     = express();
@@ -24,8 +23,6 @@ app.set('view cache', false);
 swig.setDefaults({ cache: false });
 
 //Importing the routes from /config/routes
-require('./config/routes.js');
-
-
+require('./config/routes')(app);
 app.listen(port);
 console.log('Magic happens at http://localhost:' + port);

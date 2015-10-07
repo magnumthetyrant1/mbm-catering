@@ -1,0 +1,15 @@
+.navbar, .menu{
+  background-color: $white;
+}
+.nav, .navbar-nav{
+  font-size: 18pt;
+  ul{
+    li:hover{
+      color: $green;
+      a{
+        color: $green;
+      }
+    }
+
+  }
+}

@@ -26,6 +26,7 @@
     "normalize": "~1.0.4",
     "normalize.css": "~3.0.3",
     "readmore": "~2.0.5",
+    "scrollmagic": "ScrollMagic#~2.0.5",
     "slick-carousel": "~1.5.8"
   },
   "devDependencies": {
