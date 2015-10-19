@@ -48,7 +48,8 @@ template {
   display: none; }
 
 a {
-  background-color: transparent; }
+  /* background-color: transparent; */
+  }
 
 a:active,
 a:hover {
@@ -1062,7 +1063,8 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
-  background-color: #fff; }
+  background-color: #fff;
+  }
 
 input,
 button,
@@ -3856,9 +3858,10 @@ tbody.collapse.in {
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
-  border-top: 1px solid transparent;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  -webkit-overflow-scrolling: touch; }
+  /* border-top: 1px solid transparent; */
+  /* box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); */
+  -webkit-overflow-scrolling: touch;
+  }
   .navbar-collapse:before,
   .navbar-collapse:after {
     content: " ";
@@ -4123,7 +4126,8 @@ tbody.collapse.in {
   .navbar-default .navbar-text {
     color: #777; }
   .navbar-default .navbar-nav > li > a {
-    color: #777; }
+    color: #777;
+    }
     .navbar-default .navbar-nav > li > a:hover,
     .navbar-default .navbar-nav > li > a:focus {
       color: #333;
@@ -4147,7 +4151,8 @@ tbody.collapse.in {
       background-color: #888; }
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #e7e7e7; }
+    /* border-color: #e7e7e7; */
+    }
   .navbar-default .navbar-nav > .open > a,
   .navbar-default .navbar-nav > .open > a:hover,
   .navbar-default .navbar-nav > .open > a:focus {
@@ -6320,6 +6325,51 @@ input:focus ~ .highlight {
   to {
     width: 0;
     background: transparent; } }
+
+/* Slide 2 */
+#slide-2 .bcg {
+  background-image: url("../images/bcg_slide-2.jpg"); }
+
+#slide-2 .hsContent {
+  margin-left: -450px;
+  top: auto; }
+
+#slide-2 h2 {
+  position: fixed;
+  top: 70%; }
+
+/* Slide 4 */
+#slide-4 .bcg {
+  background-image: url("../images/bcg_slide-4.jpg"); }
+
+#slide-4 .hsContent {
+  margin-left: -450px;
+  top: 250px; }
+
+#slide-4 h2 {
+  background: none;
+  padding-left: 0;
+  padding-right: 0; }
+
+.back-arrow {
+  position: fixed;
+  top: 2px;
+  left: 2px;
+  color: #fefffa;
+  background-color: rgba(48, 69, 92, 0.8); }
+  .back-arrow i {
+    color: white; }
+
+.test + .tooltip > .tooltip-inner {
+  background-color: #8AC007;
+  color: #FFFFFF;
+  border: 1px solid green;
+  padding: 15px;
+  font-size: 20px; }
+
+/* Tooltip on right */
+.test + .tooltip.right > .tooltip-arrow {
+  border-right: 5px solid black; }
 
 /*
     main.scss

@@ -1,9 +1,7 @@
+'use strict';
 var
-  express = require('express'),
   path    = require('path'),
-  swig    = require('swig'),
-  app     = express()
-;
+  swig    = require('swig');
 
 module.exports = function(app){
   app.set('view cache', false);
@@ -17,5 +15,5 @@ module.exports = function(app){
    app.engine('html', swig.renderFile);
    app.set('view engine', 'html');
 
-  
+
  };

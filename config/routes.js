@@ -45,5 +45,9 @@ module.exports = function(app){
 
   // Route for the 404 page
   //===================================================
-
+  app.get('/*', function(req, res){
+    res.render('404', {
+      title : 'Mbm Catering - 404 page'
+    });
+  });
 };// End of routes.js
