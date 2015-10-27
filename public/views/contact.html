@@ -6,13 +6,16 @@
     <div class="col-md-2"></div>
     <div class="col-md-4">
     <h1>Contact Us:</h1>
-    <form novalidate>
+    <form novalidate name="myForm"><!-- STARTING FORM TAG -->
         <br>
         <div class="group">
-          <input type="text" required>
+          <input type="text" required name="name" ng-model="name" ng-minlength="4" ng-maxlength="45">
           <span class="highlight"></span>
           <span class="bar"></span>
-          <label for="">Name *</label>
+          <label for="">Full Name *</label>
+          <div ng-message="required">You did not enter a field</div>
+          <div ng-message="minlength">Your field is too short</div>
+          <div ng-message="maxlength">Your field is too long</div>
         </div>
         <div class="group">
           <input type="text" required>

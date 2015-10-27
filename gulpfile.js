@@ -23,8 +23,16 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('./public/css'));
 });
 
+gulp.task('start', function () {
+  nodemon({
+    script: 'server.js',
+    ext: 'js html',
+    env: { 'NODE_ENV': 'development' }
+  })
+})
+
 gulp.task('sass:watch', function() {
     gulp.watch('./public/css/*.scss', ['sass']);
 });
 
-gulp.task('default', ['sass:watch']);
+gulp.task('default', ['sass:watch', 'start']);
