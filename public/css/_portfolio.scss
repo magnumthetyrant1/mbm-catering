@@ -48,6 +48,11 @@ body {
   }
 }
 */
+#portfolio{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
 #portfolio h1 , h2 {
   color: $green;
 }
@@ -101,7 +106,7 @@ body {
     margin: 0;
     padding-bottom: 4px;
     padding-top: 18px;
-    border-top: 1px dotted $grey;
+    border-top: 1px solid $grey;
     @extend .flipIn;
     &:nth-of-type(1) {
       animation-delay: 0.5s;

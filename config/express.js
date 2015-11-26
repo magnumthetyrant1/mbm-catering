@@ -14,6 +14,4 @@ module.exports = function(app){
    app.set('views', path.join(config.rootPath, 'views'));
    app.engine('html', swig.renderFile);
    app.set('view engine', 'html');
-
-
- };
+};

@@ -10,12 +10,14 @@
    3. Run:
 
    ~~~bash
-   nodemon server.js
+   gulp
    ~~~
 
    4. open browser at ***http://localhost:3000/***
 
 ## to deploy to heroku:
+
+make sure the master branch is up to date
 
  ~~~bash
  git push heroku master
