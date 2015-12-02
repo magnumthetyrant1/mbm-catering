@@ -7,7 +7,8 @@ module.exports = function(app){
   //===================================================
   app.get('/', function(req, res){
       res.render('index', {
-          title : 'MBM Catering - Home'
+          title : 'MBM Catering - Home',
+          class : 'active'
       });
   });
 
@@ -15,7 +16,8 @@ module.exports = function(app){
   //===================================================
   app.get('/contact', function(req, res){
     res.render('contact', {
-        title : 'MBM Catering - Contact'
+        title : 'MBM Catering - Contact',
+        class : 'active'
     });
   });
 
@@ -23,7 +25,8 @@ module.exports = function(app){
   //===================================================
   app.get('/events', function(req, res){
     res.render('events', {
-      title : 'MBM Catering - Events'
+      title : 'MBM Catering - Events',
+      class : 'active'
     });
   });
 
@@ -31,7 +34,8 @@ module.exports = function(app){
   //===================================================
   app.get('/portfolio', function(req, res){
     res.render('portfolio', {
-      title: 'MBM Catering - Portfolio'
+      title: 'MBM Catering - Portfolio',
+      class : 'active'
     });
   });
 
@@ -39,7 +43,8 @@ module.exports = function(app){
   //===================================================
   app.get('/success', function(req, res){
     res.render('success', {
-      title : 'MBM Catering - Success'
+      title : 'MBM Catering - Success',
+      class : 'active'
     });
   });
 
