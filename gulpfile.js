@@ -7,8 +7,8 @@ var
     uglify      = require('gulp-uglify'),
     sass        = require('gulp-sass'),
     nodemon     = require('gulp-nodemon'),
-    minifyCss   = require('gulp-minify-css')
-//    browserSync = require('browser-sync').create()
+    minifyCss   = require('gulp-minify-css'),
+   browserSync = require('browser-sync').create()
 ;
 
 
@@ -55,17 +55,11 @@ gulp.task('start', function () {
 // });
 //
 
-//
-// gulp.task('browser-sync', function() {
-//     browserSync.init([
-//       './public/css/*.css',
-//       './public/views/*.html',
-//       './public/views/partials/*.html',
-//       './public/views/content/*.html',
-//       './public/app/*.js',
-//       './public/js/*.js'  ],{
-//         baseDir: "./"
-//     });
-// });
+
+gulp.task('browser-sync', function() {
+  browserSync.init({
+    proxy: "http://localhost:3000/"
+  });
+});
 
 gulp.task('default', ['sass:watch', 'start']);

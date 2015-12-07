@@ -28,6 +28,15 @@
 
   }
 }
+
+.navbar-default .navbar-nav > li > a {
+    color: $green;
+    &:hover{
+      background-color: $green;
+      color:white;
+    }
+}
+
 .navbar .nav, .navbar .nav > li{
   float: none;
   display: inline-block;

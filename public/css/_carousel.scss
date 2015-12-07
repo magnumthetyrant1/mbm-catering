@@ -5,14 +5,13 @@
   background-color: $green;
   padding-left: 15px;
   padding-right: 15px;
-  border-radius: 2em;
+
 
 }
  .slick-arrow{
   color: $green;
   border: 1px solid $green;
   background: $green;
-  border-radius: 4em;
   &:focus, &:hover{
     background-color: $green;
   }
