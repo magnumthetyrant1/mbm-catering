@@ -6011,39 +6011,21 @@ body {
     transform-origin: top center;
     transform: rotateX(0deg); } }
 
-.flip {
-  -webkit-perspective: 800;
-  perspective: 800;
-  position: relative;
-  text-align: center; }
-
-.flip .card.flipped {
-  -webkit-transform: rotatey(-180deg);
-  transform: rotatey(-180deg); }
-
-.flip .card {
-  height: 100%;
-  -webkit-transform-style: preserve-3d;
-  -webkit-transition: 0.5s;
-  transform-style: preserve-3d;
-  transition: 0.5s; }
-
-.flip .card .face {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  z-index: 2; }
-
-.flip .card .front {
-  position: absolute;
-  width: 100%;
-  z-index: 1; }
-
-.flip .card .back {
-  -webkit-transform: rotatey(-180deg);
-  transform: rotatey(-180deg); }
-
-.inner {
-  margin: 0px !important; }
+.flex-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-end; }
+  .flex-container .event-card {
+    border: solid rgba(102, 214, 138, 0.5) 1px;
+    padding: 1px 10px 1px 10px;
+    align-self: auto; }
+    .flex-container .event-card:hover, .flex-container .event-card h2:hover {
+      background-color: rgba(102, 214, 138, 0.5);
+      color: #fefffa; }
+    .flex-container .event-card h2 {
+      font-family: serif; }
 
 /*
 */
