@@ -30,8 +30,8 @@ gulp.task('start', function () {
     script: 'server.js',
     ext: 'js html',
     env: { 'NODE_ENV': 'development' }
-  })
-})
+  });
+});
 
 //  concat js for faster loading time.
 // gulp.task('scripts', function() {
