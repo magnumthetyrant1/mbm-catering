@@ -48,6 +48,14 @@ module.exports = function(app){
     });
   });
 
+  // Route for the testimonial page
+  //===================================================
+  app.get('/testimonials', function(req, res){
+    res.render('testimonials', {
+      title : 'MBM Catering - Testimonials',
+      class : 'active'
+    });
+  });
   // Route for the 404 page
   //===================================================
   app.get('/*', function(req, res){
